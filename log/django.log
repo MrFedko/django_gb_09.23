@@ -1,0 +1,197 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 152
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+"GET /randomizer/number/ HTTP/1.1" 200 129
+"GET /randomizer/coin/ HTTP/1.1" 200 133
+Watching for file changes with StatReloader
+"GET /randomizer/coin/ HTTP/1.1" 200 133
+"GET /randomizer/coin/ HTTP/1.1" 200 133
+"GET /randomizer/coin/ HTTP/1.1" 200 131
+"GET /randomizer/coin/ HTTP/1.1" 200 131
+"GET /randomizer/number/ HTTP/1.1" 200 128
+"GET /randomizer/number/ HTTP/1.1" 200 129
+"GET /randomizer/number/ HTTP/1.1" 200 129
+"GET /randomizer/number/ HTTP/1.1" 200 129
+"GET /randomizer/number/ HTTP/1.1" 200 129
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+Watching for file changes with StatReloader
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/mysite/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /randomizer/cube/ HTTP/1.1" 200 133
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3997
+"GET / HTTP/1.1" 200 4017
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4017
+Not Found: /about
+"GET /about HTTP/1.1" 404 2534
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 1132
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1132
+"GET / HTTP/1.1" 200 1250
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 211
+"GET /about/ HTTP/1.1" 200 211
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1382
+"GET /about/ HTTP/1.1" 200 1382
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 2300
+"GET /about/ HTTP/1.1" 200 2300
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py", line 69, in index
+    return render(request, 'my_template.html', {'html': html})
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_template.html
+"GET / HTTP/1.1" 500 97429
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py", line 69, in index
+    return render(request, 'my_template.html', {'html': html})
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: my_template.html
+"GET / HTTP/1.1" 500 97155
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py", line 69, in index
+    return render(request, 'index.html', {'html': html})
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 97184
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py", line 69, in index
+    return render(request, 'index1.html', {'html': html})
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index1.html
+"GET / HTTP/1.1" 500 97202
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1620
+"GET / HTTP/1.1" 200 1620
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+"GET /about/ HTTP/1.1" 500 75969
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+"GET /about/ HTTP/1.1" 500 76106
+"GET / HTTP/1.1" 200 1620
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/Users/mac/Desktop/GeekBrain/python/Django_09.23/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.about didn't return an HttpResponse object. It returned None instead.
+"GET /about/ HTTP/1.1" 500 76106
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1141
+"GET /about/ HTTP/1.1" 200 1141
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1483
+"GET /about/ HTTP/1.1" 200 1483
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1620
+"GET /about/ HTTP/1.1" 200 1483
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1620
+"GET / HTTP/1.1" 200 1620
+"GET /about/ HTTP/1.1" 200 1483
+/Users/mac/Desktop/GeekBrain/python/Django_09.23/mysite/mysite/settings.py changed, reloading.
+Watching for file changes with StatReloader
+посещение страницы index в: 2023-09-01 20:48:28.137341
+"GET / HTTP/1.1" 200 1620
+посещение страницы index в: 2023-09-01 20:48:32.587961
+"GET / HTTP/1.1" 200 1620
+посещение страницы about в: 2023-09-01 20:48:37.973810
+"GET /about/ HTTP/1.1" 200 1483
